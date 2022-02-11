@@ -45,3 +45,16 @@ body{
             width: 100%;
             text-align: center;
         }
+
+@media screen and (max-width:601px){
+    .headline-topleft-item, .headline-topright-item, .headline-bottomright-item{
+            font-size: 10vw;
+    }
+    .headline-bottomleft-item{
+        font-size: 2vw;
+        width: 20vw;
+    }
+    .headline-grid{
+        grid-template-rows: 14vw;
+    }
+}
