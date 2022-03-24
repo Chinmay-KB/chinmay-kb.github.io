@@ -12,6 +12,20 @@ body * {
   justify-content: center;
 }
 
+#sse-testing{
+  width:100%;
+  display: flex;
+  justify-content: center;
+}
+
+#sse-data{
+  text-align: center;
+  font-weight: 600;
+}
+
+
+
+
 .tagline {
   display: flex;
   justify-content: center;
