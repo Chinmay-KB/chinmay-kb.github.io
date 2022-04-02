@@ -4,16 +4,25 @@ html * {
 }
 
 body{
-  padding: 10px;
+  padding: 3% 10%;
+  background-color: #46244C;
 }
 
 #dictionary-name {
   font-weight: bold;
   font-size: 5em;
+  color: #E9A6A6;
+}
+
+.dictionary-text{
+  color: #fac2c2;
+
 }
 
 .dictionary-subheading{
   font-style: italic;
+  color: #fac2c2;
+
 }
 
 #dictionary-noun{
@@ -25,4 +34,19 @@ body{
 .kabitag{
   font-weight: bold;
   font-style: italic;
+}
+
+.dictionary-separator{
+  border: 0;
+  border-bottom: 1px solid #ac6792;
+  width: 0;
+  animation: separator-width 1s ease-out forwards;
+}
+@keyframes separator-width {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
 }
