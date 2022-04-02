@@ -12,6 +12,17 @@ body{
   font-weight: bold;
   font-size: 5em;
   color: #E9A6A6;
+  white-space: nowrap;
+  overflow: hidden; 
+  animation: animated-text 2s;
+  animation-timing-function: cubic-bezier();
+
+}
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 100vw;}
 }
 
 .dictionary-text{
