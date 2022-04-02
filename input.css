@@ -82,12 +82,17 @@
         font-style: italic;
         color: #fac2c2;
         line-height: 40px;
+        padding-bottom: 10px;
     }
     
     #dictionary-noun {
         font-style: italic;
         font-weight: initial;
         font-size: 0.5em;
+    }
+    
+    #dictionary-noun-smol {
+        display: none;
     }
     
     .kabitag {
@@ -108,5 +113,25 @@
         }
         100% {
             width: 100%;
+        }
+    }
+    
+    @media only screen and (max-width: 800px) {
+        #dictionary-name {
+            font-weight: bold;
+            font-size: 5em;
+            color: #E9A6A6;
+            white-space: normal;
+            animation: none;
+        }
+        #dictionary-noun {
+            display: none;
+        }
+        #dictionary-noun-smol {
+            font-style: italic;
+            font-weight: initial;
+            display: block;
+            color: #fac2c2;
+            padding: 0px 10px;
         }
     }
