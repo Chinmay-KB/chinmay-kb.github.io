@@ -85,6 +85,10 @@
         padding-bottom: 10px;
     }
     
+    #sse-emoji {
+        font-size: 30px;
+    }
+    
     #dictionary-noun {
         font-style: italic;
         font-weight: initial;
