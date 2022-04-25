@@ -10,7 +10,7 @@
 // }
 
 if (typeof(EventSource) !== "undefined") {
-    var source = new EventSource("https://udao.chinmaykabi.com/emojis");
+    var source = new EventSource("https://udao.chinmaykabi.com/emojis?event=pakalupapito");
     source.onmessage = function(event) {
         const obj = JSON.parse(event.data);
         if (obj['data'] != null)
